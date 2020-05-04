@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// ---------------------------------------------------------------------
+.member-btn{
+    text-align: center;
+    border: 2px solid red;
+    background-color: white;
+    font-weight:bold;
+}
+.event-title{
+    font-weight: bold;
+    color:red;
+    
+}
+.event-background{
+    background-color: darkgray;
+    border-radius: 2px;
+}
+.event-tile{
+    background-color:lightgray;
+    padding:10px;
+    margin:10px;
+    color:black;
+    text-align: center;
+    height:30vh;
+
+}
