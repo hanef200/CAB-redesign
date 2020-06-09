@@ -13303,6 +13303,11 @@ a:hover, a:active, a:focus {
   transition: all .2s;
 }
 
+@font-face {
+  font-family: 'norwester';
+  src: local("../font/norwester.otf") format("opentype");
+}
+
 /**
  * Basic typography style for copy text
  A solution for this problem is percentage. Usually default font-size of the browser is 16px. 
@@ -13421,28 +13426,35 @@ body {
   border: 2px solid red;
   background-color: white;
   font-weight: bold;
+  font-family: "norwester";
 }
 
-/* line 10, src/assets/scss/pages/_home.scss */
+/* line 11, src/assets/scss/pages/_home.scss */
 .event-title {
   font-weight: bold;
   color: red;
 }
 
-/* line 15, src/assets/scss/pages/_home.scss */
+/* line 16, src/assets/scss/pages/_home.scss */
 .event-background {
   background-color: darkgray;
   border-radius: 2px;
 }
 
-/* line 19, src/assets/scss/pages/_home.scss */
+/* line 20, src/assets/scss/pages/_home.scss */
 .event-tile {
   background-color: lightgray;
   padding: 10px;
   margin: 10px;
   color: black;
   text-align: center;
-  height: 30vh;
+  min-height: 30vh;
+}
+
+/* line 29, src/assets/scss/pages/_home.scss */
+.event-img {
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=../../../scss */

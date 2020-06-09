@@ -6,6 +6,7 @@
     border: 2px solid red;
     background-color: white;
     font-weight:bold;
+    font-family: "norwester";
 }
 .event-title{
     font-weight: bold;
@@ -22,6 +23,10 @@
     margin:10px;
     color:black;
     text-align: center;
-    height:30vh;
+    min-height:30vh;
 
+}
+.event-img{
+height:100%;
+width:100%;
 }
